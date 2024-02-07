@@ -20,7 +20,7 @@
 
 ```docker compose up```
 
-![output.png](output.png)
+![output.png](/images/output.png)
 
 # VULN SCAN
 - Used Docker Scout to check for vulnerabilites
@@ -31,3 +31,5 @@
   - All low vulnerabilites resolved due to the affected packages not being present in the smaller image
   - PIP vulnerability still existed
   - Resolved by adding a PIP upgrade in the build
+
+![scout.png](/images/scout.png)
