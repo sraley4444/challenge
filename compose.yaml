@@ -1,0 +1,14 @@
+services:
+  python:
+    build: .
+    secrets:
+      - source: secret_token
+        target: /app/secret_token.txt
+      - source: secret_user
+        target: /app/secret_user.txt
+
+secrets:
+  secret_token:
+    file: ./secret_token.txt
+  secret_user:
+    file: ./secret_user.txt
