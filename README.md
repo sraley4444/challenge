@@ -20,7 +20,7 @@
 
 ```docker compose up```
 
-!(/output.png)
+![output.png](output.png)
 
 # VULN SCAN
 - Used Docker Scout to check for vulnerabilites
