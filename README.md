@@ -20,6 +20,8 @@
 
 ```docker compose up```
 
+!(/output.png)
+
 # VULN SCAN
 - Used Docker Scout to check for vulnerabilites
 - Originally built on python:3.11.7-slim
