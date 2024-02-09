@@ -5,7 +5,6 @@
 - Dockerfile reference - https://docs.docker.com/engine/reference/builder/
 - Docker compose secrets reference - https://docs.docker.com/compose/use-secrets/
 - requests 2.31.0 - https://pypi.org/project/requests/
-- SOC 2 AICPA reference - https://us.aicpa.org/content/dam/aicpa/interestareas/frc/assuranceadvisoryservices/downloadabledocuments/soc2_csa_ccm_report.pdf
 
 # PROCESS
 - Created ThousandEyes trial account and sample tests
@@ -35,13 +34,21 @@
 ![scout.png](/images/scout.png)
 
 # BONUS CHALLENGE
-  - Steps taken to generate new results under an alternative account
-    1. Spin down existing infrastructure
-    ![bonus_01.png](/images/bonus_01.png)
-    2. Create new account utilizing GMail aliasing
-    ![bonus_02.png](/images/bonus_02.png)
-    3. Create new test in the web UI
-    ![bonus_03.png](/images/bonus_03.png)
-    4. Update local secret_user.txt and secret_token.txt with new account credentials
-    5. Spin up container with new credentials
-    ![bonus_04.png](/images/bonus_04.png)
+  ## Steps taken to generate new results under an alternative account
+  - Spin down existing infrastructure
+
+![bonus_01.png](/images/bonus_01.PNG)
+
+  - Create new account utilizing GMail aliasing
+
+![bonus_02.png](/images/bonus_02.PNG)
+
+  - Create new test in the web UI
+    
+![bonus_03.png](/images/bonus_03.PNG)
+
+  - Update local secret_user.txt and secret_token.txt with new account credentials
+
+  - Spin up container with new credentials
+    
+![bonus_04.png](/images/bonus_04.PNG)
